@@ -3,7 +3,7 @@
 
 .cart {
   margin-top: 40px;
-  flex: 1 1;
+  flex: 1;
 
   &__container {
     gap: 32px;
@@ -12,6 +12,7 @@
     padding: 0 17px;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 
     @include on-desktop {
       padding: 0;
@@ -49,9 +50,14 @@
 
   &__title {
     color: $main-black;
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 41px;
+    margin: 0 auto;
+
+    @include on-desktop {
+      font-size: 32px;
+    }
   }
 
   &__items {

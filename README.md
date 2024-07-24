@@ -1,12 +1,17 @@
 
-# E-commerce Web Application
+# 📱 React Phone catalog 📱
+
+<p>A brief description of the project
+Implement landing page according to Figma design</p>
+
+# [Design](https://www.figma.com/file/uEetgWenSRxk9jgiym6Yzp/Phone-catalog-redesign?node-id=1%3A2)
 
 ## Description
-<p>This project is an e-commerce web application built with React, Redux Toolkit, and TypeScript. It allows users to browse products, add them to their favorites, and manage their shopping cart. The application features a responsive design and provides a smooth user experience.</p>
+<p>Simple responsive internet-shop with favourites, cart, search, slider. Done with React Context, router-dom, axios etc. I made a simple node js backend which always returns the same data, provided for the catalog.</p>
 
-[DEMO LINK](https://opokhvalenko.github.io/Phone-catalog/)
+# [Demolink](https://opokhvalenko.github.io/Phone-catalog/)
 
-## Technologies Used
+## 📚 Technologies Used
 
 - **React**: JavaScript library for building user interfaces with reusable components
 - **React Router**: Library for routing in React applications
@@ -17,19 +22,33 @@
 - **Swiper**: A modern, mobile-friendly touch slider for implementing interactive carousels
 - **Node.js & npm**: Environment and package manager for managing dependencies
 
-<h2>Link to the mockup</h2>
+# React phone catalog features:
 
-https://www.figma.com/design/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original?node-id=15870-33193&t=0mQysXBSF7ngpWnj-0
+- Main data storing is realized through react context.
 
-<p>A brief description of the project
-Implement landing page according to Figma design</p>
+- Cart stores in Local Storage.
 
-## Launch Instructions
+- React-router-dom and urlParams are widly used.
+
+- You can sort a list of products.
+
+- There are the breadcrumbs.
+
+- A few sliders exist. Main with timer and steering buttons and two more, smaller.
+
+- Search is working with debounce and stores in url.
+
+- Cart total sum is shared among every item and works well, what is amazing.
+
+- Pagination is customizible by setting amount of items on page.
+
+
+## 🚀 Launch Instructions
 
 1. **Clone the repository**:
-   git clone https://github.com/your-username/e-commerce-app.git
+   git clone https://github.com/your-username/Phone-catalog.git
    <br>
-   cd e-commerce-app
+   cd Phone-catalog
 
 2. **Install dependencies:**
 
@@ -37,21 +56,12 @@ Implement landing page according to Figma design</p>
 <br>
 npm install
 
-# or
-yarn install
-<br>
-
 3. **Run the application:**
 
 <br>
 npm start
 
-# or
-yarn start
-<br>
-
 <p>This will start the development server and open the application in your default web browser.</p>
-<br>
 
 4. **Build the application:**
 
@@ -59,34 +69,9 @@ yarn start
 <br>
 npm run build
 
-# or
-yarn build
-<br>
-
-5. **Type Checking:**
-
-<p>To run TypeScript type checking, use:</p>
-<br>
-npm run type-check
-<br>
-
-# or
-yarn type-check
-<br>
-
-6. **Liting:**
+5. **Liting:**
 
 <p>To run ESLint for code linting, use:</p>
-
+<br>
 npm run lint
-<br>
 
-# or
-yarn lint
-
-<h2>Contributing</h2>
-<p>If you want to contribute to this project, please fork the repository and create a pull request with your changes.</p>
-<br>
-<h2>License</h2>
-<p>This project is licensed under the MIT License.</p>
-<br>
