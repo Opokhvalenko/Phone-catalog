@@ -14,6 +14,8 @@ export const Footer: React.FC = () => {
             <a
               href="https://github.com/Opokhvalenko"
               className={styles.footer__link}
+              target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
@@ -22,6 +24,8 @@ export const Footer: React.FC = () => {
             <a
               href="https://github.com/Opokhvalenko"
               className={styles.footer__link}
+              target="_blank"
+              rel="noreferrer"
             >
               Contacts
             </a>
