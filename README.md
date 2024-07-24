@@ -42,36 +42,52 @@ Implement landing page according to Figma design</p>
 
 - Pagination is customizible by setting amount of items on page.
 
+## 🚀 How to run the Apps.
 
-## 🚀 Launch Instructions
+### Pre-requirements
 
-1. **Clone the repository**:
-   git clone https://github.com/your-username/Phone-catalog.git
-   <br>
-   cd Phone-catalog
+You need [```Node```](https://nodejs.org/es/) previously installed in your computer.
+To start using this project, clone this repo to a new directory.
 
-2. **Install dependencies:**
+### ➡️ Node
+You have to go to server and run npm install in order to install the necesary dependencies.
+#### - Server
+General Environment variables (server side):
+> ```console
+> PORT=5005
+> ORIGIN=http://localhost:3000
+> ```
+Console:
+> ```console
+> $ cd server
+> $ npm install
+> ```
 
-<p>Make sure you have Node.js installed.</p>
-<br>
-npm install
+Now you need to do the same thing on the client side.
+Environment variables:
+> ```console
+> REACT_APP_SERVER_URL=http://localhost:5005
+> ```
 
-3. **Run the application:**
+Console:
+> ```console
+> $ cd client
+> $ npm install
+> ```
 
-<br>
-npm start
+Once you have installed the dependencies, you are ready to run the app with ```npm start```. Like above, we need to do it both in server and client sides.
 
-<p>This will start the development server and open the application in your default web browser.</p>
+Server Side:
+> ```console
+> $ cd server
+> $ npm run dev
+> ```
 
-4. **Build the application:**
+Client side:
+>  ```console
+> $ cd client
+> $ npm start
+> ```
 
-<p>To create a production build, run:</p>
-<br>
-npm run build
-
-5. **Liting:**
-
-<p>To run ESLint for code linting, use:</p>
-<br>
-npm run lint
+> 👉 Open http://localhost:3000 to view in the browser
 
