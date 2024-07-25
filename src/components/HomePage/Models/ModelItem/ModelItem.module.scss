@@ -19,6 +19,7 @@
   &__info {
     display: flex;
     flex-direction: column;
+    
   }
 
   &__wrapper {
@@ -27,6 +28,7 @@
     flex-direction: column;
     gap: 24px;
     justify-content: space-between;
+
 
     @include on-desktop {
       height: 511px;
@@ -54,7 +56,7 @@
   &__title {
     color: $main-black;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 21px;
     transition: color 0.5s;
 

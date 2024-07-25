@@ -2,7 +2,7 @@
 @import '/src/styles/variables';
 
 .details {
-  margin-top: 25px;
+  margin: 25px 0 40px 0;
 
   &__container,
   &__photos,
@@ -70,7 +70,7 @@
 
     @include on-tablet {
       flex-direction: row;
-      gap: 40px;
+      gap: 20px;
     }
   }
 
@@ -189,6 +189,7 @@
     border-radius: 50%;
     width: 32px;
     height: 32px;
+
 
     &--active {
       border: 2px solid $main-black;
