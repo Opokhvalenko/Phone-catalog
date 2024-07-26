@@ -19,7 +19,7 @@
   &__info {
     display: flex;
     flex-direction: column;
-    
+
   }
 
   &__wrapper {
@@ -43,9 +43,10 @@
   &__image {
     height: 129px;
     transition: transform 0.3s;
+    margin: auto;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
 
     @include on-tablet {
