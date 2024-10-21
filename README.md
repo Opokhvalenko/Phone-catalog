@@ -7,7 +7,7 @@ Implement landing page according to Figma design</p>
 # [Design](https://www.figma.com/file/uEetgWenSRxk9jgiym6Yzp/Phone-catalog-redesign?node-id=1%3A2)
 
 ## Description
-<p>Simple responsive internet-shop with favourites, cart, search, slider. Done with React Context, router-dom, axios etc. I made a simple node js backend which always returns the same data, provided for the catalog.</p>
+<p>Simple responsive internet-shop with favorites, cart, search, slider. Done with React Context, router-dom, axios etc. I made a simple node js backend which always returns the same data, provided for the catalog.</p>
 
 # [Demolink](https://opokhvalenko.github.io/Phone-catalog/)
 
